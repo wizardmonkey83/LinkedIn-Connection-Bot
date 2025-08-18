@@ -36,10 +36,12 @@ A Python/Selenium script that automates sending LinkedIn connection requests bas
 
 ## Configuration
 1. Create a .env file in the project root:
+   ```
    LINKEDIN_USER=youremail@example.com
    LINKEDIN_PASS=yoursuperdupersecurepassword
+   ```
 
-2. Make sure you put .env into .gitignore to keep it secure
+3. Make sure you put .env into .gitignore to keep it secure
 
 ## Usage
 With your venv activated and .env configured, simply run: ```python main.py```
