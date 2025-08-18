@@ -16,16 +16,22 @@ A Python/Selenium script that automates sending LinkedIn connection requests bas
 
 ## Installation
 1. Clone this repo:
+   ```bash
    git clone https://github.com/wizardmonkey83/LinkedIn-Connection-Bot
    cd LinkedIn-Connection-Bot
+   ```
 
-2. Create and activate a virtual environment:
+3. Create and activate a virtual environment:
+   ```bash
    python -m venv venv
    source venv/bin/activate    -- for macOS/Linux
    .\venv\Scripts\activate     -- for Windows
+   ```
 
-3. Install dependencies:
+5. Install dependencies:
+   ```
    pip install -r requiriements.txt
+   ```
 
 
 ## Configuration
@@ -36,7 +42,7 @@ A Python/Selenium script that automates sending LinkedIn connection requests bas
 2. Make sure you put .env into .gitignore to keep it secure
 
 ## Usage
-With your venv activated and .env configured, simply run: python main.py
+With your venv activated and .env configured, simply run: ```python main.py```
 
 ## Notes
 There should be a few updates to this bot in the future in order to add operations and make it more robust
